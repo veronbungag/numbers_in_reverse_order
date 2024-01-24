@@ -6,5 +6,6 @@ def reverse_digits(number):
     while number > 0:
         reverse = reverse * 10 + (number % 10)
         number = number // 10
-#add return to reverse
+    #add return to reverse
+    return reverse
 #add the numbers then print
