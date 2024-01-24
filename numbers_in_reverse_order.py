@@ -9,3 +9,6 @@ def reverse_digits(number):
     #add return to reverse
     return reverse
 #add the numbers then print
+number = 123456
+print("Original number:", number)
+print("Reversed number:", reverse_digits(number))
